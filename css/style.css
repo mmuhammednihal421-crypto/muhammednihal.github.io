@@ -1300,3 +1300,52 @@ a {
         flex-wrap: wrap;
     }
 }
+@media (max-width: 768px) {
+
+    .contact {
+        height: auto;
+        min-height: 100vh;
+        padding: 40px 20px;
+        box-sizing: border-box;
+    }
+
+    .contact > h1 {
+        font-size: 35px;
+    }
+
+    .contact-intro {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact-info {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 18px;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 15px;
+    }
+
+    .contact-socials {
+        flex-wrap: wrap;
+    }
+
+    .contact-footer {
+        margin-top: 30px;
+    }
+}
