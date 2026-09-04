@@ -1152,3 +1152,108 @@ a {
     font-size: 13px;
     text-align: center;
 }
+/* Mobile Responsive Design */
+
+@media (max-width: 768px) {
+
+    .home,
+    .about,
+    .projects,
+    .contact {
+        height: auto;
+        min-height: 100vh;
+        padding: 30px 20px;
+        box-sizing: border-box;
+    }
+
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* Home */
+    .hero {
+        margin-top: 50px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    /* About */
+    .about {
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .about-text,
+    .about-image {
+        width: 100%;
+    }
+
+    .about-text h1 {
+        font-size: 35px;
+    }
+
+    .photo-frame {
+        width: 280px;
+        height: 350px;
+        margin: auto;
+    }
+
+    /* Projects */
+    .project {
+        flex-direction: column;
+    }
+
+    .project-image,
+    .project-content {
+        width: 100%;
+    }
+
+    .project-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Contact */
+    .contact-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact > h1 {
+        font-size: 35px;
+    }
+}
