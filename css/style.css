@@ -1203,3 +1203,48 @@ a {
         box-sizing: border-box;
     }
 }
+@media (max-width: 768px) {
+
+    .about {
+        height: auto;
+        min-height: 100vh;
+        padding: 40px 20px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 35px;
+        box-sizing: border-box;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-text h1 {
+        font-size: 35px;
+    }
+
+    .about-text h3 {
+        font-size: 19px;
+    }
+
+    .about-description {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .about-item {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .about-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .photo-frame {
+        width: 280px;
+        height: 350px;
+    }
+}
